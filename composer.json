@@ -5,7 +5,11 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "keywords": ["ecommerce", "laravel", "vanilo"],
+    "keywords": [
+        "ecommerce",
+        "laravel",
+        "vanilo"
+    ],
     "support": {
         "issues": "https://github.com/vanilophp/framework/issues",
         "source": "https://github.com/vanilophp/contracts"
@@ -18,14 +22,16 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^10.43|^11.0",
+        "illuminate/support": "^10.43|^11.0|^12.0",
         "nette/schema": "^1.2.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0"
     },
     "autoload": {
-        "psr-4": { "Vanilo\\Contracts\\": "" }
+        "psr-4": {
+            "Vanilo\\Contracts\\": ""
+        }
     },
     "extra": {
         "branch-alias": {
